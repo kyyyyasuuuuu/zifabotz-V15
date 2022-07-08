@@ -4,14 +4,14 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 
 let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_ZIFABOTZ_* ]─✧
+╭─[ *_C-BOTZ_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
 
 ╭══════════════════๑—————————
 *║╭──❉ 〔Utama〕*
 ║│➸.onketik
-║│➸.sewazifa
+║│➸.sewaC-bot
 ║│➸.biodata
 ║│➸.groupbot
 ║│➸.iklan
@@ -544,8 +544,8 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 *╰───❉*
 
 
-  ⬣━〔Powered By Rozi〕━⬣
-©️ zifabotz`
+  ⬣━〔Powered By Iky〕━⬣
+©️ C-Bot`
 let name = await conn.getName(m.sender)
 
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
@@ -557,15 +557,15 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
-        "title": "𝚃𝙰𝙼𝙿𝙸𝙻𝙰𝙽 𝙼𝙴𝙽𝚄 𝚉𝙸𝙵𝙰𝙱𝙾𝚃𝚉",
+        "title": "𝚃𝙰𝙼𝙿𝙸𝙻𝙰𝙽 𝙼𝙴𝙽𝚄 𝖢-𝖡𝙾𝚃𝚉",
         "description": '\n' + watermark + '\n' + str,
-        "retailerId": "Thanks For zifabotz !",
+        "retailerId": "Thanks For C-Botz !",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
         "currencyCode": "IDR",
         "priceAmount1000": "99999999999999",
 "productImageCount": "1",
       },
-      "businessOwnerJid": "6287773973818@s.whatsapp.net",
+      "businessOwnerJid": "6285723302803@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": true
