@@ -225,10 +225,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `
 ♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_ZIFABOTZ_* ]─✧
+╭─[ *_C-BOTZ_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Rozi━⬣
+⬣━〔Powered By Iky━⬣
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),                        "footerText": "*©️zifabotz*",                        "buttonText": "««TAMPILAN MENU««",                        "listType": "SINGLE_SELECT",                        "sections": [
                             {
                                 "rows": [{
